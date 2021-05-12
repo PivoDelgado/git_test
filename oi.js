@@ -1,1 +1,5 @@
-eu ainda não sei javascript
+let admin;
+let name = 'John';
+
+admin = name;
+alert(admin);
