@@ -1,2 +1,1 @@
-This is Paulo's first git projet!
-More tests
+Repo para projetos. Estudo de Web Dev.
