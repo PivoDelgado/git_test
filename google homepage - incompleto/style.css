@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    color: grey;
+    font-size: 12px;
+}
+
+header {
+    height: 6vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -100px;
+}
+
+header .container-header {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+header img {
+    height: 20px;
+    width: auto;
+}
+
+header .circle {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+
+/* BODY */
+
+.container-body {
+    height: 82%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-body img{
+    display: block;
+}
+
+.search-container {
+    border: 2px solid slateblue;
+    display: flex;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.search-container input{
+    width:80%;
+}
+
+.body-button {
+    margin: 15px 0;
+    display: flex;
+}
+
+.body-button button {
+    border:2px solid grey;
+    color: grey;
+    margin: 0 10px;
+    padding: 3px 15px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+.pre-footer {
+    height: 6vh;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid green;
+    align-items: center;
+    padding-left: 15px;
+}
+
+footer {
+    height: 6vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+
+footer .footer-left {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+}
+
+footer .footer-right {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding-right: 15px;
+}
