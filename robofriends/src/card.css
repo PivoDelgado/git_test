@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.cardTotal {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px;
+    margin: 2px;
+    min-width: auto;
+    transition: 0.5s;
+}
+
+.cardText {
+    text-align: center;
+}
+
+.cardTotal:hover {
+    transform: scale(1.03);
+}
