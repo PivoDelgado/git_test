@@ -1,0 +1,10 @@
+input {
+    background-color: aquamarine;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: #000;
+    text-align: center;
+}

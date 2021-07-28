@@ -1,4 +1,5 @@
 import React from 'react';
+import './Searchbox.css';
 
 const Searchbox = ({searchChange}) => {
     return (
